@@ -1,50 +1,64 @@
-<!doctype html>
-<html>
-<head>
-<title>WEB1 - HELLO WORLD</title>
-<meta charset="utf-8">
-</head>
-<body>
-    <h1><a href="index.html" target="_blank">WEB</a></h1>
-<ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-</ol>
-<ul>
-    <li>egoing</li>
-    <li>vkfkdto0044</li>
-    <li>ehdqls12</li>
-</ul>
-<h2>WEB</h2> 
-<p>The World Wide Web (WWW), commonly known as the Web, is an information system 
-    enabling documents and other web resources to be accessed over the Internet.[1]
-    Documents and downloadable media are made available to the network through web 
-    servers and can be accessed by programs such as web browsers. Servers and resources on
-     the World Wide Web are identified and located through character strings called uniform
-     resource locators (URLs). The original and still very common document type is a web page
-       formatted in Hypertext Markup Language (HTML). This markup language supports plain text,
-        images, embedded video and audio contents, and scripts (short programs) that implement
-         complex user interaction. The HTML language also supports hyperlinks (embedded URLs)
-          which provide immediate access to other web resources. Web navigation, or web surfing,
-           is the common practice of following such hyperlinks across multiple websites.
-            Web applications are web pages that function as application software. The information
-             in the Web is transferred across the Internet using the Hypertext Transfer Protocol (HTTP).
-</p>
+<!DOCTYPE html>
+<html lang="ko">
 
-<table border="5">
-    <tr>
-        <td><li>brazil</li></td>
-        <td><li>91.2%</li></td>
-    </tr>
-    <tr>
-        <td><li>korea</li></td>
-        <td><li>93.2%</li></td>
-    </tr>
-    <tr>
-        <td><li>japan</li></td>
-        <td><li>92.1%</li></td>
-    </tr>
-</table>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        body {
+            background-color: #1BBC9B;
+        }
+
+        div {
+            margin: auto;
+            width: 300px;
+            background-color: #EEEFF1;
+            border-radius: 5px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .in {
+            margin-bottom: 10px;
+        }
+
+        #btn {
+            background-color: #1BBC9B;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: #9B9B9B;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <input type="text" placeholder="아이디" class="in">
+            <input type="password" placeholder="비밀번호" class="in">
+            <input type="submit" id="btn" value="로그인"><br>
+        </form>
+        <a href="#none">비밀번호를 잊어버리셨나요?</a>
+    </div>
 </body>
+
 </html>
